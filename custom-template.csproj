@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+ 
+
+  <PropertyGroup>
+
+    <PackageType>Template</PackageType>
+
+                <TargetFramework>netcoreapp3.1</TargetFramework>            
+
+    <PackageId>Custom.Template</PackageId>
+
+    <PackageVersion>1.0.0</PackageVersion>
+
+    <Title>Templates Personalizadas</Title>
+
+    <Authors>Ciro Batista</Authors>
+
+    <Description>Projeto para criar templates personalizadas para o dotnet new.</Description>
+
+    <PackageTags>dotnet-new;templates;Custom;Api</PackageTags>
+
+    <IncludeContentInPack>true</IncludeContentInPack>
+
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+  </PropertyGroup>
+
+ 
+
+  <ItemGroup>
+
+    <Content Include="template\**\*" Exclude="template\**\bin\**;template\**\obj\**" />
+
+    <Compile Remove="**\*" />
+
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,37 @@
+{
+
+  "$schema": "http://json.schemastore.org/template",
+
+  "author": "Ciro Batista",
+
+  "classifications": [ "WebAPI", "Custom Template" ],
+
+  "tags": {
+
+    "language": "C#"
+
+  },
+
+  "identity": "Ciro Batista",
+
+  "name": "Custom Template",
+
+  "shortName": "CustomTemplate",
+
+  "sourceName": "Custom.Template",
+
+  "sources": [
+
+    {
+
+      "modifiers": [
+
+        { "exclude": [ ".vs/**", ".template_config/**" ] }
+
+      ]
+
+    }
+
+  ],
+
+}
